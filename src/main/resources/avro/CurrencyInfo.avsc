@@ -1,0 +1,23 @@
+{
+  "namespace": "com.example.dto", // Package where model needs to be generated
+  "type": "record",
+  "name": "CurrencyInfo", // Model name
+  "fields": [
+    {
+      "name": "timestamp",
+      "type": "long"
+    },
+    {
+      "name": "price",
+      "type": "double"
+    },
+    {
+      "name": "volume",
+      "type": "double"
+    },
+    {
+      "name": "currencyPair",
+      "type": "string"
+    }
+  ]
+ }

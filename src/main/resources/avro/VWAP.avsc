@@ -1,0 +1,19 @@
+{
+  "namespace": "com.example.dto", // Package where model needs to be generated
+  "type": "record",
+  "name": "VWAP", // Model name
+  "fields": [
+    {
+      "name": "timestamp",
+      "type": "long"
+    },
+    {
+      "name": "currencyPair",
+      "type": "string"
+    },
+    {
+      "name": "vwap",
+      "type": "double"
+    }
+  ]
+ }
